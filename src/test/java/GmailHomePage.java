@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -15,6 +16,9 @@ public class GmailHomePage {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://gmail.com");
+		Thread.sleep(1000);
+		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
+		
 		
 		Thread.sleep(9000);
 		driver.close();
