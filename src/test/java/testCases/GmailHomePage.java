@@ -21,7 +21,7 @@ public class GmailHomePage {
 		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
 		
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		driver.close();
 		driver.quit();
 		
