@@ -16,9 +16,11 @@ public class GmailHomePage {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://gmail.com");
+		String web = System.getProperty("url");
+		
+		driver.get(web);
 //		Thread.sleep(1000);
-		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
+//		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
 		
 		
 		Thread.sleep(4000);
