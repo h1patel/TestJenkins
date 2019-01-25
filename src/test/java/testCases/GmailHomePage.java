@@ -1,5 +1,4 @@
 package testCases;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -14,8 +13,25 @@ public class GmailHomePage {
 	@Test
 	public void loadPage() throws InterruptedException {
 		
+//		String browser = System.getProperty("browser");
+		
 		WebDriver driver = new ChromeDriver();
 		
+		/*switch (browser) {
+		case "chrome" : 
+			driver = new ChromeDriver();
+			break;
+		case "firefox" :
+			driver = new FirefoxDriver();
+			break;
+		case "edge"	:
+			driver = new EdgeDriver();
+			break;
+		default :
+			driver = new InternetExplorerDriver();
+			break;
+		}
+		*/
 		String web = System.getProperty("url");
 		
 		driver.get(web);
