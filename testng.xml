@@ -1,7 +1,7 @@
 <suit name="TestJenkins">
 	<test name="openGmail">
 		<classes>
-			<class name="GmailHomePage"></class>
+			<class name="testCases.GmailHomePage"></class>
 		</classes>
 	</test>
 </suit>
