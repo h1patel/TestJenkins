@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17621" started-at="2019-01-25T07:34:44Z" finished-at="2019-01-25T07:35:01Z">
+  <suite name="TestJenkins" duration-ms="12459" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17621" started-at="2019-01-25T07:34:44Z" finished-at="2019-01-25T07:35:01Z">
-      <class name="GmailHomePage">
-        <test-method status="PASS" signature="loadPage()[pri:0, instance:GmailHomePage@1d548a08]" name="loadPage" duration-ms="17588" started-at="2019-01-25T07:34:44Z" finished-at="2019-01-25T07:35:01Z">
+    <test name="openGmail" duration-ms="12459" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
+      <class name="testCases.GmailHomePage">
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:testCases.GmailHomePage@15761df8]" name="loadPage" duration-ms="12416" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPage -->
-      </class> <!-- GmailHomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.GmailHomePage -->
+    </test> <!-- openGmail -->
+  </suite> <!-- TestJenkins -->
 </testng-results>
