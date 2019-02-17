@@ -34,7 +34,7 @@ public class YouTubeHomePage {
 		*/
 	//	String web = System.getProperty("url");
 		
-		driver.get("https://www.youtube.ca");
+		driver.get("https://www.youtube.com");
 //		Thread.sleep(1000);
 //		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
 		

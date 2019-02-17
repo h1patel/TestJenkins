@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestJenkins" duration-ms="12459" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
+  <suite name="TestJenkins" duration-ms="16259" started-at="2019-02-17T19:03:54Z" finished-at="2019-02-17T19:04:10Z">
     <groups>
     </groups>
-    <test name="openGmail" duration-ms="12459" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
-      <class name="testCases.GmailHomePage">
-        <test-method status="PASS" signature="loadPage()[pri:0, instance:testCases.GmailHomePage@15761df8]" name="loadPage" duration-ms="12416" started-at="2019-02-17T18:55:57Z" finished-at="2019-02-17T18:56:09Z">
+    <test name="openGmail" duration-ms="16259" started-at="2019-02-17T19:03:54Z" finished-at="2019-02-17T19:04:10Z">
+      <class name="testCases.YouTubeHomePage">
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:testCases.YouTubeHomePage@15761df8]" name="loadPage" duration-ms="16217" started-at="2019-02-17T19:03:54Z" finished-at="2019-02-17T19:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPage -->
-      </class> <!-- testCases.GmailHomePage -->
+      </class> <!-- testCases.YouTubeHomePage -->
     </test> <!-- openGmail -->
   </suite> <!-- TestJenkins -->
 </testng-results>
