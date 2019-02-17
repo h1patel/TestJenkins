@@ -35,6 +35,7 @@ public class GmailHomePage {
 	//	String web = System.getProperty("url");
 		
 		driver.get("https://www.gmail.ca");
+		
 //		Thread.sleep(1000);
 //		driver.findElement(By.id("identifierId")).sendKeys("test@gmail.com");
 		
