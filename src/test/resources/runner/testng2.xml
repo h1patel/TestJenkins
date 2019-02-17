@@ -1,0 +1,7 @@
+<suite name="TestJenkins">
+	<test name="openGmail">
+		<classes>
+			<class name="testCases.YouTubeHomePage"></class>
+		</classes>
+	</test>
+</suite>
